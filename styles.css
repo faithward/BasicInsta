@@ -1,0 +1,59 @@
+
+
+body{
+    margin: auto;
+    background-color: #d3d3d3;
+    width: 800px;
+    font-family: 'Open Sans', sans-serif
+}
+
+#topWrapper {
+    background-color: white;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+
+#mainWrapper {
+    background-color: #d3d3d3;
+    margin: auto;
+}
+
+#mainWrapper > .Post {
+    position: relative;
+    margin: auto;
+}
+
+
+.Post{
+    background-color: white;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    overflow: auto;
+}
+
+
+.postTop > *{
+    display: inline-flex;
+}
+
+.postTop {
+    height: 40px;
+    padding-bottom: 10px;
+}
+
+.Date{
+    float: right;
+    padding-top: 15px;
+    padding-right: 15px;
+    color: grey;
+}
+
+h3 {
+    padding-left: 15px;
+}
+
+p {
+    padding-left: 10px;
+}
